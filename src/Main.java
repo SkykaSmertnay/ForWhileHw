@@ -5,7 +5,7 @@ public class Main {
         int bank = 0;
         int month = 1;
 
-        while (bank <= 2_469_000){
+        while (bank < 2_469_000){
             bank = bank + 15000;
             System.out.println("Месяц " + month + " сумма накоплений равна " + bank + " рублей");
             month++;
@@ -73,7 +73,7 @@ public class Main {
         int dayToday = 1;
         while (dayToday < 31) {
             if (dayToday == friday) {
-                System.out.println("Сегодня пятница " + friday + " число");
+                System.out.println("Сегодня пятница " + friday + "-e число");
                 friday = friday + 7;
             }
             dayToday++;
@@ -90,15 +90,6 @@ public class Main {
             }
             year1++;
         }
-
-
-
-
-
-
-
-
-
 
     }
 }
