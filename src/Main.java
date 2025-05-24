@@ -43,7 +43,7 @@ public class Main {
         while (bank1 <= 12_000_000){
             bank1 = (int) (bank1 * 1.07);
             monthCounter1++;
-            System.out.println("Месяц " + monthCounter1 + " наколения состовляют " + bank1 + " рублей");
+            System.out.println("Месяц " + monthCounter1 + " сумма накоплений равна " + bank1 + " рублей");
         }
         //Задание №5
         System.out.println("\nЗадание №5");
@@ -53,7 +53,7 @@ public class Main {
             bank2 = (int) (bank2 * 1.07);
             monthCounter2++;
             if (monthCounter2 % 6 == 0) {
-                System.out.println("Месяц " + monthCounter2 + " наколения состовляют " + bank2 + " рублей");
+                System.out.println("Месяц " + monthCounter2 + " сумма накоплений равна " + bank2 + " рублей");
             }
         }
         //Задание №6
@@ -64,7 +64,7 @@ public class Main {
             bank3 = (int) (bank3 * 1.07);
             monthCounter3++;
             if (monthCounter3 % 6 == 0) {
-                System.out.println("Месяц " + monthCounter3 + " наколения состовляют " + bank3 + " рублей");
+                System.out.println("Месяц " + monthCounter3 + " сумма накоплений равна " + bank3 + " рублей");
             }
         }
         //Задание №7
